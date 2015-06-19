@@ -6,7 +6,7 @@
     <vendor/>
   <types>
     <typeDescription>
-      <name>org.jannikbu.types.JointState</name>
+      <name>robotTA.types.JointState</name>
       <description/>
       <supertypeName>uima.tcas.Annotation</supertypeName>
       <features>
@@ -33,12 +33,12 @@
       <featureDescription>
           <name>jointTrajectoryPoint</name>
           <description/>
-          <rangeTypeName>org.jannikbu.types.JointTrajectoryPoint</rangeTypeName>
+          <rangeTypeName>robotTA.types.JointTrajectoryPoint</rangeTypeName>
         </featureDescription>
       </features>
     </typeDescription>
   <typeDescription>
-      <name>org.jannikbu.types.Acceleration</name>
+      <name>robotTA.types.Acceleration</name>
       <description/>
       <supertypeName>uima.tcas.Annotation</supertypeName>
       <features>
@@ -50,7 +50,7 @@
       </features>
     </typeDescription>
   <typeDescription>
-      <name>org.jannikbu.types.Oscillation</name>
+      <name>robotTA.types.Oscillation</name>
       <description/>
       <supertypeName>uima.tcas.Annotation</supertypeName>
       <features>
@@ -67,7 +67,7 @@
       </features>
     </typeDescription>
   <typeDescription>
-      <name>org.jannikbu.types.TaskSpacePosition</name>
+      <name>robotTA.types.TaskSpacePosition</name>
       <description/>
       <supertypeName>uima.tcas.Annotation</supertypeName>
       <features>
@@ -89,7 +89,7 @@
       </features>
     </typeDescription>
   <typeDescription>
-      <name>org.jannikbu.types.DistanceToLimit</name>
+      <name>robotTA.types.DistanceToLimit</name>
       <description/>
       <supertypeName>uima.tcas.Annotation</supertypeName>
       <features>
@@ -121,7 +121,7 @@
       </features>
     </typeDescription>
 	<typeDescription>
-      <name>org.jannikbu.types.ControllerInput</name>
+      <name>robotTA.types.ControllerInput</name>
 	  <description/>
 	  <supertypeName>uima.tcas.Annotation</supertypeName>
 	  <features>
@@ -138,17 +138,17 @@
         <featureDescription>
           <name>desired</name>
           <description/>
-          <rangeTypeName>org.jannikbu.types.JointTrajectoryPoint</rangeTypeName>
+          <rangeTypeName>robotTA.types.JointTrajectoryPoint</rangeTypeName>
         </featureDescription>
         <featureDescription>
           <name>actual</name>
           <description/>
-          <rangeTypeName>org.jannikbu.types.JointTrajectoryPoint</rangeTypeName>
+          <rangeTypeName>robotTA.types.JointTrajectoryPoint</rangeTypeName>
         </featureDescription>
         <featureDescription>
           <name>error</name>
           <description/>
-          <rangeTypeName>org.jannikbu.types.JointTrajectoryPoint</rangeTypeName>
+          <rangeTypeName>robotTA.types.JointTrajectoryPoint</rangeTypeName>
         </featureDescription>
       <featureDescription>
           <name>controllerType</name>
@@ -158,7 +158,7 @@
       </features>
     </typeDescription>
 	<typeDescription>
-      <name>org.jannikbu.types.JointTrajectoryPoint</name>
+      <name>robotTA.types.JointTrajectoryPoint</name>
 	  <description/>
 	  <supertypeName>uima.cas.AnnotationBase</supertypeName>
 	  <features>
@@ -185,7 +185,7 @@
       </features>
     </typeDescription>
   <typeDescription>
-      <name>org.jannikbu.types.UnplannedStop</name>
+      <name>robotTA.types.UnplannedStop</name>
       <description/>
       <supertypeName>uima.tcas.Annotation</supertypeName>
       <features>
@@ -197,7 +197,7 @@
       </features>
     </typeDescription>
     <typeDescription>
-      <name>org.jannikbu.types.SelfCollision</name>
+      <name>robotTA.types.SelfCollision</name>
       <description/>
       <supertypeName>uima.tcas.Annotation</supertypeName>
       <features>
@@ -214,7 +214,7 @@
       </features>
     </typeDescription>
   <typeDescription>
-      <name>org.jannikbu.types.ControllerError</name>
+      <name>robotTA.types.ControllerError</name>
       <description/>
       <supertypeName>uima.tcas.Annotation</supertypeName>
       <features>
@@ -226,7 +226,7 @@
       </features>
     </typeDescription>
     <typeDescription>
-      <name>org.jannikbu.types.Movement</name>
+      <name>robotTA.types.Movement</name>
       <description/>
       <supertypeName>uima.tcas.Annotation</supertypeName>
       <features>
@@ -238,7 +238,7 @@
       </features>
     </typeDescription>
     <typeDescription>
-      <name>org.jannikbu.types.PlannedMovement</name>
+      <name>robotTA.types.PlannedMovement</name>
       <description/>
       <supertypeName>uima.tcas.Annotation</supertypeName>
       <features>
@@ -250,7 +250,7 @@
       </features>
     </typeDescription>
     <typeDescription>
-      <name>org.jannikbu.types.UnplannedMovement</name>
+      <name>robotTA.types.UnplannedMovement</name>
       <description/>
       <supertypeName>uima.tcas.Annotation</supertypeName>
       <features>
@@ -262,7 +262,7 @@
       </features>
     </typeDescription>
   <typeDescription>
-      <name>org.jannikbu.types.NegativeMovement</name>
+      <name>robotTA.types.NegativeMovement</name>
       <description/>
       <supertypeName>uima.tcas.Annotation</supertypeName>
       <features>
@@ -284,7 +284,7 @@
       </features>
     </typeDescription>
     <typeDescription>
-      <name>org.jannikbu.types.PositiveMovement</name>
+      <name>robotTA.types.PositiveMovement</name>
       <description/>
       <supertypeName>uima.tcas.Annotation</supertypeName>
       <features>

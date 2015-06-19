@@ -7,11 +7,11 @@ import java.util.Hashtable;
 
 import javax.xml.parsers.ParserConfigurationException;
 
-import org.jannikbu.Urdf;
-import org.jannikbu.Xml2Urdf;
-import org.jannikbu.exceptions.InvalidUrdfNotation;
-import org.jannikbu.joint.Joint;
-import org.jannikbu.link.Link;
+import urdfMongo.Urdf;
+import urdfMongo.Xml2Urdf;
+import urdfMongo.exceptions.InvalidUrdfNotation;
+import urdfMongo.joint.Joint;
+import urdfMongo.link.Link;
 import org.xml.sax.SAXException;
 
 import robotTA.kinematics.Frame;

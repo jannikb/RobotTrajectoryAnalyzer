@@ -2,8 +2,8 @@ package robotTA.kinematics;
 
 import java.util.ArrayList;
 
-import org.jannikbu.joint.Joint;
-import org.jannikbu.link.Link;
+import urdfMongo.joint.Joint;
+import urdfMongo.link.Link;
 
 import Jama.Matrix;
 

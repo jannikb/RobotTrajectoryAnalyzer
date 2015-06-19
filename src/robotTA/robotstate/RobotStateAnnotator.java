@@ -12,10 +12,10 @@ import org.apache.uima.fit.descriptor.ConfigurationParameter;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.tcas.Annotation;
 import org.apache.uima.resource.ResourceInitializationException;
-import org.jannikbu.Mongo2Urdf;
-import org.jannikbu.Urdf;
-import org.jannikbu.joint.Joint.JointType;
-import org.jannikbu.joint.Limit;
+import urdfMongo.Mongo2Urdf;
+import urdfMongo.Urdf;
+import urdfMongo.joint.Joint.JointType;
+import urdfMongo.joint.Limit;
 
 import robotTA.kinematics.FKSolver;
 import robotTA.kinematics.Frame;
